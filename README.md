@@ -1,4 +1,4 @@
-```terraform init
+```terraform init```
 
 Ensure Terraform code is formatted properly:
 terraform fmt
