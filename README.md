@@ -23,3 +23,7 @@ After terraform apply has run successfully, you can either use the AWS CLI on th
 Finally, on the Terraform Controller node CLI, delete all resources which were created and ensure that it runs through successfully.
 
 ```terraform destroy```
+
+Moving state in terraform:
+
+```terraform state mv module.condis_cdb.aws_dynamodb_table.condis_table aws_dynamodb_table.dynamodb-table```
