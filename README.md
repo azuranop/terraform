@@ -36,3 +36,7 @@ Use environment configuration files:
 Resources:
 
 https://ryaneschinger.com/blog/terraform-state-move/
+
+https://www.hashicorp.com/blog/zero-downtime-updates-with-terraform
+
+https://stackoverflow.com/questions/72456421/migrate-a-dynamodb-table-in-terraform-module-without-destroying-and-recreating-t
