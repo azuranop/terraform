@@ -32,3 +32,7 @@ Moving state in terraform:
 Use environment configuration files:
 
 ```terraform plan -var-file=terraform.int.tfvars```
+
+Resources:
+
+https://ryaneschinger.com/blog/terraform-state-move/
