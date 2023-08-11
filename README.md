@@ -27,3 +27,8 @@ Finally, on the Terraform Controller node CLI, delete all resources which were c
 Moving state in terraform:
 
 ```terraform state mv module.condis_cdb.aws_dynamodb_table.condis_table aws_dynamodb_table.dynamodb-table```
+
+
+Use environment configuration files:
+
+```terraform plan -var-file=terraform.int.tfvars```
